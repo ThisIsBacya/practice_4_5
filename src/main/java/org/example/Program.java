@@ -20,7 +20,7 @@ public class Program {
         MyConnection myConnection = new MyConnection();
         myConnection.getConnection();
         AvtorRepository avtorRepository = new AvtorRepository(myConnection.getConnection());
-        Avtor avtor1 = new Avtor(11, "Vasilev", "Daniil", 1999, "m");
+        Avtor avtor1 = new Avtor(15, "Vasilev", "Daniil", 1999, "m");
 //        avtorRepository.createAvtor(avtor1);
 //        List<Avtor> avtors1 = AvtorRepository.findAll();
 //        List<Avtor> avtors = AvtorRepository.absolutPosition(4);

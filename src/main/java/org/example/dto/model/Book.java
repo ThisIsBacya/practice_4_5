@@ -9,6 +9,10 @@ public class Book {
         this.avtor = avtor;
     }
 
+    public Book() {
+
+    }
+
     public String getName() {
         return name;
     }

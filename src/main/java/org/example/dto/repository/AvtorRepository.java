@@ -36,7 +36,7 @@ public class AvtorRepository {
         }
     }
 
-    public List<Avtor> findAll() {
+    public static List<Avtor> findAll() {
         List<Avtor> avtors = new ArrayList<>();
 
         try {

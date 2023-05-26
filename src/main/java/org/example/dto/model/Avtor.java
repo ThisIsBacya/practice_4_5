@@ -19,6 +19,17 @@ public class Avtor {
 
     }
 
+    @Override
+    public String toString() {
+        return "Avtor{" +
+                "id " + id + '\'' +
+                ", name " + name + '\'' +
+                ", fam " + fam + '\'' +
+                ", god_r" + god_r + '\'' +
+                ", pol" + pol + '\'' +
+                '}';
+    }
+
     public int getId() {
         return id;
     }
